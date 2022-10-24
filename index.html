@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".btn1").click(function(){
+          $("h4").fadeOut();
+        });
+        $(".btn2").click(function(){
+          $("h4").fadeIn();
+        });
+      });
+    </script>
     <link href="styles/style.css" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
     <title>Neo Culture Technology</title>
@@ -63,15 +74,17 @@
           <th>經紀公司</th>
           <td>&nbsp;SM娛樂</td>
         </tr>
-      </table>
+      </table><br>
     </div>
     <figure>
+      <button class="btn1">隱藏圖片</button>
+      <button class="btn2">顯示圖片</button>
       <h4>
-        <img src="images/dream.jpeg" alt="A group of 7 members">
+        <img class=img src="images/dream.jpeg" alt="A group of 7 members">
         <figcaption>NCT DREAM</figcaption>
-        <img src="images/127.jpg" alt="A group of 9 members">
+        <img class=img src="images/127.jpg" alt="A group of 9 members">
         <figcaption>NCT 127</figcaption>
-        <img src="images/wayv.jpg" alt="A group of 6 members">
+        <img class=img src="images/wayv.jpg" alt="A group of 6 members">
         <figcaption>Way V</figcaption>
       </h4>
     </figure>

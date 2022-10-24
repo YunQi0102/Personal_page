@@ -44,11 +44,16 @@ table {
     float: right;
     width: 400px;
     height: 250px;
-    margin-right: 10%;
     margin-top: 2%;
     border: thin solid black;
     border-collapse: collapse;
 }
+
+figure {
+    margin-top: 310px;
+    text-align: center;
+}
+
 
 th,td {
     border: thin solid black;
